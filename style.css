@@ -1,3 +1,31 @@
 /* 
 This file has all the css code of the html part. It contains the styling and the designing of the html code.
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisquefont;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    border-bottom: 2px solid burlywood;
+    font-weight: bolder;
+
+}
+
+main {
+    
+}
