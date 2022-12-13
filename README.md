@@ -7,4 +7,4 @@ Hammad Rashid
 
 **Code explanation:**
 
-The .html file has all html code present inside it. It is the file which has the tags and code for the calculator page. The .css file has all of the styling of the html code in it.   
+The .html file has all html code present inside it. It is the file which has the tags and code for the calculator page. The .css file has all of the styling of the html code in it. The number colored in blue is the birthday-number.
