@@ -6,5 +6,6 @@ A basic dummy application of a calendar for the year 2023 showing the months and
 Hammad Rashid
 
 Code explanation:
-**cal.html:**
+
+1. **cal.html:**
 This file has all html code present inside it. It is the file which has the tags and code for the calculator page. 
