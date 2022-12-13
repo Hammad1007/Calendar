@@ -1,25 +1,19 @@
-/* 
-This file has all the css code of the html part. It contains the styling and the designing of the html code.
-*/
-
-body {
+* {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: pink;
-    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
-.calendar {
-    position: 0;
-    background: rosybrown;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    justify-content: space-between;
+body {
+    font-family: sans-serif;
+    color: black;
+    background: bisque;
     align-items: center;
-    border: 1px solid;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    display: flex;
+    /*height: 100vh;*/
+}
+
+.container {
+
 }
