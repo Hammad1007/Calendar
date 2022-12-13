@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(red, green, blue);
+    background: rgb(65, 65, 65);
     box-shadow: 0 20px 25px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -35,3 +35,31 @@ body {
     height: 500px;
     padding: 30px;
 }
+
+.container .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .day, 
+.container .number,
+.container .birthday-number
+{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .date {
+    width: 380px;
+    padding: 25px;
+}
+
+.container .h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0
+}
+
