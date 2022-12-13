@@ -5,7 +5,6 @@ A basic dummy application of a calendar for the year 2023 showing the months and
 **Collaborators:**
 Hammad Rashid
 
-Code explanation:
+**Code explanation:**
 
-1. **cal.html:**
-This file has all html code present inside it. It is the file which has the tags and code for the calculator page. 
+The html file has all html code present inside it. It is the file which has the tags and code for the calculator page. The .css file has all of the styling of the html code in it.  
