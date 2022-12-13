@@ -1,19 +1,23 @@
+/* In the *, everything comes which is being 
+discussed in this file.*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*body*/
 body {
     font-family: sans-serif;
     color: rgb(0, 0, 0);
-    background: rgb(58, 119, 73);
+    background: rgb(28, 118, 51);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*container*/
 .container {
     position: relative;
     height: 500px;
@@ -21,10 +25,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(98, 171, 92);
+    background: rgb(81, 162, 76);
     box-shadow: 0 20px 25px 25px rgba(98, 171, 92, 0.5);
 }
 
+/*image which is being displayed*/
 .container .image {
     position: absolute;
     top: 0;
@@ -36,11 +41,13 @@ body {
     padding: 30px;
 }
 
+/*days*/
 .container .days {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*day, number, birthday-number*/
 .container .day, 
 .container .number,
 .container .birthday-number
@@ -52,19 +59,22 @@ body {
     justify-content: center;
     font-weight: bold;
 }
+
+/*date class*/
 .container .date {
     width: 380px;
     padding: 25px;
 }
 
+/*heading of size1*/
 h1 {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
     margin: 5px;
-    box-shadow:10 10px 10px 10px rgba(0, 0, 0, 0.5)
 }
 
+/*my birthday number that is 18th February*/
 .birthday-number {
     color: blue;
 }
