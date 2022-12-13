@@ -6,8 +6,8 @@
 
 body {
     font-family: sans-serif;
-    color: black;
-    background: #fff;
+    color: rgb(0, 0, 0);
+    background: rgb(58, 119, 73);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -21,8 +21,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(65, 65, 65);
-    box-shadow: 0 20px 25px 25px rgba(0, 0, 0, 0.5);
+    background: rgb(98, 171, 92);
+    box-shadow: 0 20px 25px 25px rgba(98, 171, 92, 0.5);
 }
 
 .container .image {
@@ -50,16 +50,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
-
 .container .date {
     width: 380px;
     padding: 25px;
 }
 
-.container .h1 {
+h1 {
     font-size: 30px;
-    font-weight: bold;
-    margin: 0
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px;
+    box-shadow:10 10px 10px 10px rgba(0, 0, 0, 0.5)
 }
 
+.birthday-number {
+    color: blue;
+}
