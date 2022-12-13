@@ -7,13 +7,31 @@
 body {
     font-family: sans-serif;
     color: black;
-    background: bisque;
+    background: #fff;
+    height: 100vh;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    /*height: 100vh;*/
 }
 
 .container {
+    position: relative;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(red, green, blue);
+    box-shadow: 0 20px 25px 25px rgba(0, 0, 0, 0.5);
+}
 
+.container .image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container img {
+    height: 500px;
+    padding: 30px;
 }
